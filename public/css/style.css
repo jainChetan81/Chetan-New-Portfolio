@@ -1,0 +1,24 @@
+#main-header-header img {
+  width: 100%;
+  height: 100%;
+}
+.bg-black {
+  color: #fff;
+  background: #000;
+}
+.icons:hover {
+  background-color: blue;
+}
+
+#main-header-header .port-item:hover {
+  opacity: 0.8 !important;
+  cursor: pointer;
+}
+#main-header-header .port-item {
+  width: 30% !important;
+}
+@media (min-width: 1199px) {
+  .port-item {
+    padding: 2.1em !important;
+  }
+}
